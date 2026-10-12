@@ -63,10 +63,14 @@ main p {
 }
 
 /* ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) ===== */
-/* Style untuk daftar kegiatan */
-main ul {
-    margin-left: 20px;
-    line-height: 1.8;
-}
-
 /* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */
+/* Style untuk halaman kontak */
+main form {
+    margin-top: 15px;
+}
+main input, main textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+}

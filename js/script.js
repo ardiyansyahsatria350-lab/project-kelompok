@@ -15,7 +15,13 @@ if (tombolTema) {
 console.log("Halaman Beranda Perpustakaan Digital siap.");
 
 // ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) =====
-// Interaksi untuk halaman Profil & Kegiatan (Mahasiswa 3)
-console.log("Halaman Profil & Kegiatan siap ditampilkan.");
-
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
+// Validasi / penanganan form kontak (Mahasiswa 4)
+const formKontak = document.getElementById('form-kontak');
+if (formKontak) {
+    formKontak.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Terima kasih! Pesan Anda telah berhasil dikirim.');
+        formKontak.reset();
+    });
+}
