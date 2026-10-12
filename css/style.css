@@ -55,6 +55,13 @@ body.gelap .card { background-color: #1c2538; border-color: #33415c; }
  .menu { gap: 14px; }
 }
 /* ===== BAGIAN MAHASISWA 2 (Beranda) ===== */
+/* Tambahan style untuk halaman beranda */
+main p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
 /* ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) ===== */
 /* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */
 /* Style untuk halaman kontak */
