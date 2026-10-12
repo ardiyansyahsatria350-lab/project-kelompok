@@ -15,4 +15,7 @@ if (tombolTema) {
 console.log("Halaman Beranda Perpustakaan Digital siap.");
 
 // ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) =====
+// Interaksi untuk halaman Profil & Kegiatan (Mahasiswa 3)
+console.log("Halaman Profil & Kegiatan siap ditampilkan.");
+
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
